@@ -10,9 +10,11 @@ Thanks to @[datapointed](https://twitter.com/DataPointed/status/1096493114322124
 
 ![via datapointed](DataPointed_2019-Feb-15.jpg)
 
+Map via David Rumsey:
+
 https://purl.stanford.edu/cx298pr4007
 
-more here: http://www.foundsf.org/index.php?title=The_Silver_Era,_1860-1870
+Learn more about "Montgomery Street Straight" here: http://www.foundsf.org/index.php?title=The_Silver_Era,_1860-1870
 
 
 
