@@ -4,7 +4,7 @@ Zoomable slippy map of a proposed extension of Montgomery St from 1868, which wo
 
 https://burritojustice.github.io/new_new_montgomery_st/
 
-made with Tangram and [XYZ Studio](https://xyz.here.com/studio)
+made with [Tangram](https://tangrams.readthedocs.io/en/latest/) and [XYZ Studio](https://xyz.here.com/studio)
 
 Thanks to @[datapointed](https://twitter.com/DataPointed/status/1096493114322124800) for pointing it out!
 
