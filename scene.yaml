@@ -58,6 +58,8 @@ sources:
             access_token: AZdeRR9wjYs6rCb0xNXMiKY
             clip: true
 layers:
+    buildings: 
+        filter: {$zoom: {min: 18}}
     _new_new_montgomery_red:
         enabled: false
         data: {source: _xyzspace}
