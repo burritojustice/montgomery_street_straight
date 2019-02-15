@@ -82,7 +82,7 @@ layers:
                     width: 1px
 
     _roads:
-        data: {source: _nnm}
+        data: {source: _xyzspace}
         draw:
             lines:
                 width: 1px
