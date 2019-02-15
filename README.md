@@ -4,6 +4,8 @@ Zoomable slippy map of proposed extension of Montgomery St in 1868, from Market 
 
 https://burritojustice.github.io/new_new_montgomery_st/
 
+made with Tangram and [XYZ Studio](https://xyz.here.com/studio)
+
 ![via datapointed](DataPointed_2019-Feb-15.jpg)
 
 https://purl.stanford.edu/cx298pr4007
