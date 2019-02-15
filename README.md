@@ -1,6 +1,6 @@
 # New New Montgomery Street
 
-Slippy map of proposed extension of Montgomery St in 1868, with today's streets
+Zoomable slippy map of proposed extension of Montgomery St in 1868, from Market St through SOMA to Connecticut St, with today's streets
 
 https://burritojustice.github.io/new_new_montgomery_st/
 
