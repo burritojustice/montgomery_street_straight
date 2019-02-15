@@ -48,9 +48,15 @@ sources:
         # max_zoom: 13
         url_params: 
             access_token: AZdeRR9wjYs6rCb0xNXMiKY
-
             clip: true
-
+    _nnm:
+        # url: https://xyz.api.here.com/hub/spaces/WCDFl8fF/tile/quadkey/12021
+        url: https://xyz.api.here.com/hub/spaces/pZo9xo5t/tile/web/{z}_{x}_{y}
+        type: GeoJSON
+        # max_zoom: 13
+        url_params: 
+            access_token: AZdeRR9wjYs6rCb0xNXMiKY
+            clip: true
 layers:
     _new_new_montgomery_red:
         enabled: false
@@ -74,7 +80,7 @@ layers:
                     width: 1px
 
     _roads:
-        data: {source: _xyzspace}
+        data: {source: _nnm}
         draw:
             lines:
                 width: 1px
@@ -138,7 +144,7 @@ layers:
                     lines:
                         color: [[5, global.light_color], [7, global.mid_color]]
                         width: [[5, 0.25px], [7, 0.5px]]
-                        order: 1000
+                        order: global.feature_order
                         # outline:
                         #     width: [[8, 0.0px], [9, 0.0px], [11, .5px], [16, .75px]]
             minor_road:
@@ -235,7 +241,7 @@ layers:
                     color: [[8, global.black_color], [13, global.black_color], [17, global.white_color]]
                     width: [[13, 1px], [14, 1px], [16, 2.5px], [17, 3px]]
                     outline:
-                        order: 1000
+                        order: 360
                         width: [[12, 0px], [13, 0.5px], [15, 1px], [17, 2px]]
             trunk_primary:
                 filter: { kind_detail: [trunk, primary] }
