@@ -2,61 +2,21 @@ import:
     # - https://s3.amazonaws.com/xyz-demo/scenes/simple_dark_grey.yaml
     - https://www.nextzen.org/carto/refill-style/refill-style.zip
     # - https://www.nextzen.org/carto/refill-style/themes/color-gray-gold.zip
-    # - https://www.nextzen.org/carto/refill-style/themes/color-inverted.zip    
     - https://s3.amazonaws.com/xyz-demo/data/demo.yaml
     # - https://www.nextzen.org/carto/refill-style/11/themes/label-4.zip
     # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
     # - https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
 
-global:
-    occupancy_hsl: |
-        function(){
-            var occupancy =  200 - feature.occupancy * 200
-            // return 'hsla(' + occupancy + ', 100%, 50%, .5)'
-            return 'hsl(' + occupancy + ', 100%, 50%)'
-        }
-    occupancy_hsla: |
-        function(){
-            var occupancy =  200 - feature.occupancy * 200
-            return 'hsla(' + occupancy + ', 100%, 50%, .75)'
-        }
-    sf: x-sf-trees
-
-cameras:
-    camera1:
-        type: perspective
-        # axis: [1, 0.7]
-
-lights:
-    light1:
-        visible: true
-        type: directional
-        direction: [0, 1, -.5]
-        diffuse: .4
-        ambient: 1
-
-
 
 sources:
-    # mapzen:
-    #     type: MVT
-    #     url: https://xyz.api.here.com/tiles/osmbase/256/all/{z}/{x}/{y}.mvt
     _xyzspace:
-        # url: https://xyz.api.here.com/hub/spaces/WCDFl8fF/tile/quadkey/12021
-        url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/tile/web/{z}_{x}_{y}
+#         url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/tile/web/{z}_{x}_{y}
+        url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/search #better for just one feature
         type: GeoJSON
-        # max_zoom: 13
         url_params: 
             access_token: AZdeRR9wjYs6rCb0xNXMiKY
-            clip: true
-    _nnm:
-        # url: https://xyz.api.here.com/hub/spaces/WCDFl8fF/tile/quadkey/12021
-        url: https://xyz.api.here.com/hub/spaces/pZo9xo5t/tile/web/{z}_{x}_{y}
-        type: GeoJSON
-        # max_zoom: 13
-        url_params: 
-            access_token: AZdeRR9wjYs6rCb0xNXMiKY
-            clip: true
+#             clip: true
+
 layers:
     buildings: 
         filter: {$zoom: {min: 18}}
@@ -68,18 +28,6 @@ layers:
                 color: red
                 width: 4px
                 order: 1000
-    _new_new_montgomery:
-        enabled: false
-        style: roads
-        data: {source: _xyzspace}
-        draw:
-            lines:
-                color: white
-                width: 1px
-                order: 1000
-                outline:
-                    color: black
-                    width: 1px
 
     _roads:
         data: {source: _xyzspace}
