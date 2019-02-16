@@ -1,10 +1,10 @@
-# New New Montgomery Street
+# Montgomery Street Straight
 
 Zoomable slippy map of a proposed extension of Montgomery St from 1868, which would have run south from Market St through SOMA to Connecticut St. 
 
 https://burritojustice.github.io/montgomery_street_straight/
 
-screenshot:
+map screenshot:
 
 ![full map](https://github.com/burritojustice/montgomery_street_straight/blob/master/montgomery_street_straight.png)
 
@@ -51,3 +51,4 @@ because all online maps eventually break
 ![](folsom_brannan.png)
 ![](brannan_seventh.png)
 ![](brannan_16th.png)
+![](buildings.png)
