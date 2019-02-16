@@ -28,10 +28,8 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 
 ## How-to
 
-- use [HERE XYZ Studio]([XYZ Studio]) to draw your fictional road segment
-- import refill into [Tangram](https://tangrams.readthedocs.io/en/latest/) and draw you road using the HERE XYZ API ([Tangram Play](https://play.tangram.city/?scene=https://raw.githubusercontent.com/burritojustice/montgomery_street_straight/master/scene.yaml#15.7583/37.7789/-122.4026) helps big time)
- - the XYZ vector tile endpoint is super helpful during development -- you make a change and presto, it shows up right away in Tangram 
- - but depending on the size and number of features, when you're done, you might want to export it or use the API to just pull the feature rather than vector tiling it at every zoom level
+- use [HERE XYZ Studio](https://xyz.here.com/studio) to draw your fictional road segment
+- import Refill as a basemap into [Tangram](https://tangrams.readthedocs.io/en/latest/) and bring your road in as a data source using the [HERE XYZ API](https://xyz.api.here.com/hub/static/swagger/#/)
 - borrow the road styles from [Refill](https://github.com/tangrams/refill-style) and use XYZ Studio to give your fictional road segment Tilezen-style road attributes so Refill will think OMG THIS ACTUALLY A REAL ROAD LET ME DRAW IT:
 
   - `kind: major_road`
@@ -40,7 +38,8 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
   - `name:	Montgomery St`
   - `sort_rank: 380`
  
-
+- [Tangram Play](https://play.tangram.city/?scene=https://raw.githubusercontent.com/burritojustice/montgomery_street_straight/master/scene.yaml#15.7583/37.7789/-122.4026) helps big time
+- the XYZ vector tile endpoint is super helpful during development -- you make a change and presto, it shows up right away in Tangram. Depending on the size and number of features, when you're done, you might want to export it or use the API to just pull the feature rather than vector tiling it at every zoom level
 - profit!
 
 ## Screenshots for posterity
