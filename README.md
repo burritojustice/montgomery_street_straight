@@ -26,7 +26,25 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 
 > The possibility of connecting the financial district by a broad avenue directly to the Potrero and Mission Bay opened dizzy possibilities for promoting real estate. The idea was to extend Montgomery Street diagonally as a wide thoroughfare to the southern part of the city, joining Connecticut Street in the Potrero to the Montgomery Street financial district. Hittel reports: “This scheme was carried through the supervisors and passed over the mayor’s veto; commissioners were appointed, and they made an elaborate report, with the estimate of the expense, but the engineer in laying off the map of the work, assumed incorrectly that the blocks intersected were exactly of the size proposed in the original survey. The consequence was that the lines of the new street were not straight, but showed a little offset like a saw-tooth at every crossing. This defeated the enterprise.”
 
-Screenshots for posterity:
+## How-to
+
+- use [HERE XYZ Studio]([XYZ Studio]) to draw your fictional road segment
+- import refill into [Tangram](https://tangrams.readthedocs.io/en/latest/) and draw you road using the HERE XYZ API ([Tangram Play](https://play.tangram.city/?#17.98750/37.77804/-122.40046) helps big time)
+ - the XYZ vector tile endpoint is super helpful during development -- you make a change and presto, it shows up right away in Tangram 
+ - but depending on the size and number of features, when you're done, you might want to export it or use the API to just pull the feature rather than vector tiling it at every zoom level
+- borrow the road styles from [Refill](https://github.com/tangrams/refill-style) and use XYZ Studio to give your fictional road segment Tilezen-style road attributes like:
+
+ - `kind: major_road`
+ - `kind_detail:	primary`
+ - `min_zoom:	8`
+ - `name:	Montgomery St`
+ - `sort_rank: 380`
+ 
+- profit!
+
+## Screenshots for posterity
+
+because all online maps eventually break
 
 ![](Market_Folsom.png)
 ![](folsom_brannan.png)
