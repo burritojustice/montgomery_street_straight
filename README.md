@@ -29,6 +29,6 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 Screenshots for posterity:
 
 ![](Market_Folsom.png)
-![](brannan_16th.png)
-![](brannan_seventh.png)
 ![](folsom_brannan.png)
+![](brannan_seventh.png)
+![](brannan_16th.png)
