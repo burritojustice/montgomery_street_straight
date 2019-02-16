@@ -40,6 +40,7 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
  
 - [Tangram Play](https://play.tangram.city/?scene=https://raw.githubusercontent.com/burritojustice/montgomery_street_straight/master/scene.yaml#15.7583/37.7789/-122.4026) helps big time
 - the XYZ vector tile endpoint is super helpful during development -- you make a change and presto, it shows up right away in Tangram. Depending on the size and number of features, when you're done, you might want to export it or use the API to just pull the feature rather than vector tiling it at every zoom level
+- disabling the ` buildings` layer makes it look better, though it's fun to keep it a z18 just so you can imagine how many Flatiron type building would have been built in SOMA
 - profit!
 
 ## Screenshots for posterity
