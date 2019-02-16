@@ -4,6 +4,8 @@ Zoomable slippy map of a proposed extension of Montgomery St from 1868, which wo
 
 https://burritojustice.github.io/montgomery_street_straight/
 
+![full map](https://github.com/burritojustice/montgomery_street_straight/blob/master/montgomery_street_straight.png)
+
 made with [Tangram](https://tangrams.readthedocs.io/en/latest/) and [XYZ Studio](https://xyz.here.com/studio)
 
 Thanks to @[datapointed](https://twitter.com/DataPointed/status/1096493114322124800) for pointing it out!
@@ -21,5 +23,7 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 > The heady prospect of San Francisco’s peninsula becoming the terminus for the transcontinental railroad, coupled with the new flow of capital from the Comstock, injected new life into real-estate speculation, especially schemes affecting the southern waterfront. The rallying cry of real-estate promoters of the ’60s was “Montgomery Street Straight!”
 
 > The possibility of connecting the financial district by a broad avenue directly to the Potrero and Mission Bay opened dizzy possibilities for promoting real estate. The idea was to extend Montgomery Street diagonally as a wide thoroughfare to the southern part of the city, joining Connecticut Street in the Potrero to the Montgomery Street financial district. Hittel reports: “This scheme was carried through the supervisors and passed over the mayor’s veto; commissioners were appointed, and they made an elaborate report, with the estimate of the expense, but the engineer in laying off the map of the work, assumed incorrectly that the blocks intersected were exactly of the size proposed in the original survey. The consequence was that the lines of the new street were not straight, but showed a little offset like a saw-tooth at every crossing. This defeated the enterprise.”
+
+Screenshots for posterity:
 
 
