@@ -4,6 +4,8 @@ Zoomable slippy map of a proposed extension of Montgomery St from 1868, which wo
 
 https://burritojustice.github.io/montgomery_street_straight/
 
+screenshot:
+
 ![full map](https://github.com/burritojustice/montgomery_street_straight/blob/master/montgomery_street_straight.png)
 
 made with [Tangram](https://tangrams.readthedocs.io/en/latest/) and [XYZ Studio](https://xyz.here.com/studio)
@@ -26,4 +28,7 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 
 Screenshots for posterity:
 
-
+![](Market_Folsom.png)
+![](brannan_16th.png)
+![](brannan_seventh.png)
+![](folsom_brannan.png)
