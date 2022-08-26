@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "etag": "\"989ab475cdbac8ebe0854db2a997690c\"",
+  "features": [
+    {
+      "id": "Ikr0jNSPWLcbvTUh",
+      "type": "Feature",
+      "properties": {
+        "kind": "major_road",
+        "name": "Montgomery St",
+        "min_zoom": "8",
+        "sort_rank": "380",
+        "kind_detail": "primary",
+        "@ns:com:here:xyz": {
+          "space": "8VMYKxxm",
+          "createdAt": 1550260037595,
+          "updatedAt": 1550273402254
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.40203532,
+            37.78909335,
+            0
+          ],
+          [
+            -122.39787387,
+            37.76640618,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}
