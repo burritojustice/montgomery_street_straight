@@ -43,7 +43,7 @@ layers:
 
     _roads:
         # data: {source: _xyzspace}
-        data: {source: mapzen}
+        data: {source: montgomery}
         draw:
             lines:
                 width: 1px
