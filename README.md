@@ -26,8 +26,7 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 
 ### Update:
 
-I just (2026) found [The Great Diamond Hoax AND Other Stirring Incidents IN THE LIFE OF ASBURY HARPENDING](https://www.gutenberg.org/files/48834/48834-h/48834-h.htm) which has astonishing detail of Ashbury buying up property and trying to make Montgomery Street Straight happen. He didn't quite pulle it off, but he did make New Montgomery, htough not all the way to the Bay as he wanted.
-
+I just (2026) found [The Great Diamond Hoax AND Other Stirring Incidents IN THE LIFE OF ASBURY HARPENDING](https://www.gutenberg.org/files/48834/48834-h/48834-h.htm) which has astonishing detail of Ashbury buying up property and trying to make Montgomery Street Straight happen. He didn't pull it off, but he did make New Montgomery, though not all the way to the Bay as he wanted.
 
 > The battle cry in the early 60’s was “Montgomery street straight.” The all but universal wish was to run the great street, broadened to a wide avenue, in a direct line to Connecticut street, far to the south. Tremendous efforts were made to carry through this project in a peaceful way. Several times it was near accomplishment, but just as often fell through, owing to some recalcitrant property owner. The main obstacle was the large block of land on Market street where the Palace Hotel now stands. This was owned by the Catholic Church and had been reserved for the construction thereon of a great religious edifice.
 
@@ -41,11 +40,12 @@ I just (2026) found [The Great Diamond Hoax AND Other Stirring Incidents IN THE 
 
 > I made New Montgomery street, as it stands to-day, a free gift to the city of San Francisco, and it must remain a permanent record of my existence. I may add that I had to scatter numerous shekels among the “boys” before the gift was finally accepted...
 
-> Less than half a dozen property owners, to their irreparable disadvantage, blocked “Montgomery Straight”—a project that would have changed the whole course of the city’s progress and development. Just two property owners prevented the immediate extension of New Montgomery street to the bay, and again the failure was the city’s heavy loss.
+> Two Men Block Plan to Run New Montgomery Street to the Bay; One Asks Coin, Other Prefers Fight: Less than half a dozen property owners, to their irreparable disadvantage, blocked “Montgomery Straight”—a project that would have changed the whole course of the city’s progress and development. Just two property owners prevented the immediate extension of New Montgomery street to the bay, and again the failure was the city’s heavy loss.
+> 
 
-## How-to
+Anyway he throws lots of shade, but he also was probably insufferable as nothing is named after him today...
 
- draw your fictional road segment
+## How-to draw your fictional road segment
 - import Refill as a basemap into [Tangram](https://tangrams.readthedocs.io/en/latest/) and bring your road in as a data source 
 - borrow the road styles from [Refill](https://github.com/tangrams/refill-style) and give your fictional road segment Tilezen-style road attributes so Refill will think OMG THIS ACTUALLY A REAL ROAD LET ME DRAW IT:
 
