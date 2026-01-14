@@ -2,27 +2,39 @@ import:
     # - https://s3.amazonaws.com/xyz-demo/scenes/simple_dark_grey.yaml
     - https://www.nextzen.org/carto/refill-style/refill-style.zip
     # - https://www.nextzen.org/carto/refill-style/themes/color-gray-gold.zip
-    - https://s3.amazonaws.com/xyz-demo/data/demo.yaml
+    # - https://s3.amazonaws.com/xyz-demo/data/demo.yaml
     # - https://www.nextzen.org/carto/refill-style/11/themes/label-4.zip
     # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
     # - https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
-
-
+global:
+    sdk_api_key: DpCrhQqsR2igQPEINRTfcw
+    api_key: DpCrhQqsR2igQPEINRTfcw
+    
 sources:
-    _xyzspace:
-#         url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/tile/web/{z}_{x}_{y}
-        url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/search #better for just one feature
+    mapzen:
+        type: MVT
+        url: https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.mvt
+        url_params:
+            api_key: global.api_key
+    montgomery:
         type: GeoJSON
-        url_params: 
-            access_token: AZdeRR9wjYs6rCb0xNXMiKY
-#             clip: true
+        url: montgomery_street_straight.geojson
+
+# sources:
+#     _xyzspace:
+# #         url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/tile/web/{z}_{x}_{y}
+#         url: https://xyz.api.here.com/hub/spaces/8VMYKxxm/search #better for just one feature
+#         type: GeoJSON
+#         url_params: 
+#             access_token: AZdeRR9wjYs6rCb0xNXMiKY
+# #             clip: true
 
 layers:
     buildings: 
         filter: {$zoom: {min: 18}}
     _new_new_montgomery_red:
         enabled: false
-        data: {source: _xyzspace}
+        data: {source: montgomery}
         draw:
             lines:
                 color: red
@@ -30,7 +42,8 @@ layers:
                 order: 1000
 
     _roads:
-        data: {source: _xyzspace}
+        # data: {source: _xyzspace}
+        data: {source: mapzen}
         draw:
             lines:
                 width: 1px
