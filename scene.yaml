@@ -2,8 +2,8 @@ import:
     - https://www.nextzen.org/carto/refill-style/refill-style.zip
     # - https://www.nextzen.org/carto/refill-style/themes/color-gray-gold.zip
     # - https://www.nextzen.org/carto/refill-style/11/themes/label-4.zip
-    - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
-    # - https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
+    # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
+    - https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
 global:
     sdk_api_key: DpCrhQqsR2igQPEINRTfcw
     api_key: DpCrhQqsR2igQPEINRTfcw
