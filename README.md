@@ -26,7 +26,7 @@ Learn more about "Montgomery Street Straight" and other real estate schemes here
 
 ### Update:
 
-I just (2026) found [The Great Diamond Hoax AND Other Stirring Incidents IN THE LIFE OF ASBURY HARPENDING](https://www.gutenberg.org/files/48834/48834-h/48834-h.htm) which has astonishing detail of Ashbury buying up property and trying to make Montgomery Street Straight happen. He didn't quite pulle it off, but he did make New Montgomery!
+I just (2026) found [The Great Diamond Hoax AND Other Stirring Incidents IN THE LIFE OF ASBURY HARPENDING](https://www.gutenberg.org/files/48834/48834-h/48834-h.htm) which has astonishing detail of Ashbury buying up property and trying to make Montgomery Street Straight happen. He didn't quite pulle it off, but he did make New Montgomery, htough not all the way to the Bay as he wanted.
 
 
 > The battle cry in the early 60’s was “Montgomery street straight.” The all but universal wish was to run the great street, broadened to a wide avenue, in a direct line to Connecticut street, far to the south. Tremendous efforts were made to carry through this project in a peaceful way. Several times it was near accomplishment, but just as often fell through, owing to some recalcitrant property owner. The main obstacle was the large block of land on Market street where the Palace Hotel now stands. This was owned by the Catholic Church and had been reserved for the construction thereon of a great religious edifice.
@@ -39,7 +39,9 @@ I just (2026) found [The Great Diamond Hoax AND Other Stirring Incidents IN THE 
 
 > This is the veritable story of how I acquired the frontage on Market street which enabled me to open New Montgomery street through my property to Howard. I was certain it would soon be extended to the bay and solve the problem of the 60’s—“Montgomery South.” At the Market street corners of the street I opened, the Palace Hotel and the Merchants’ Bank, two of the finest buildings in San Francisco, now stand.
 
-> I made New Montgomery street, as it stands to-day, a free gift to the city of San Francisco, and it must remain a permanent record of my existence. I may add that I had to scatter numerous shekels among the “boys” before the gift was finally accepted.
+> I made New Montgomery street, as it stands to-day, a free gift to the city of San Francisco, and it must remain a permanent record of my existence. I may add that I had to scatter numerous shekels among the “boys” before the gift was finally accepted...
+
+> Less than half a dozen property owners, to their irreparable disadvantage, blocked “Montgomery Straight”—a project that would have changed the whole course of the city’s progress and development. Just two property owners prevented the immediate extension of New Montgomery street to the bay, and again the failure was the city’s heavy loss.
 
 ## How-to
 
